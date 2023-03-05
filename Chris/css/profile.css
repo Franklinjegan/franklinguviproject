@@ -1,0 +1,25 @@
+/* Main container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Profile form */
+#profile-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Form input fields */
+.form-control {
+  margin-bottom: 10px;
+}
+
+/* Update button */
+#update-btn {
+  margin-top: 10px;
+}

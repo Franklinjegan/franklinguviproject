@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Profile</title>
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+  <h1>Profile</h1>
+  <p>Welcome, <span id="username"></span>!</p>
+
+  <form id="profile-form" method="POST">
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age"><br>
+
+    <label for="dob">Date of birth:</label>
+    <input type="date" id="dob" name="dob"><br>
+
+    <label for="contact">Contact:</label>
+    <input type="text" id="contact" name="contact"><br>
+
+    <input type="submit" value="Update Profile">
+  </form>
+
+  <button id="logout-btn">Logout</button>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="../js/profile.js"></script>
+</body>
+</html>
